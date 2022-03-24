@@ -1,0 +1,72 @@
+h1{
+    font-family: courier; 
+    background-color: #ffc9da; 
+    
+  }
+  nav{
+    background-color: #ffc9da;
+  }
+  .p1{
+    color: blue;
+    background-color: aquamarine;
+  }
+  #titulo{
+    color: blueviolet;
+  }
+ul{
+    background-color: red;
+}
+button{
+    background-color: aquamarine;
+}
+button:hover{
+    border: none;
+    border-radius: 40px;
+    height: 80px;
+    width: 80px;
+    background-color: royalblue;
+    transition: all 0.3s ease;
+}
+body{
+  /* background-image: url(imagenes/3cats.jpg); */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: tan;
+}
+.galleria{
+  margin: 5px;
+  border: 1px solid;
+  float: left;
+  width: 380px;
+}
+.galleria img{
+  width: 100%;
+  height: auto;
+}
+.image-card{
+  width: 600;
+  height: 400;
+}
+@media screen and (max-width: 900px){
+  body{
+    background-color: blue;
+  }
+}
+@media screen and (max-width: 600px){
+  body{
+    background-color: olive;
+  }
+}
+.flex{
+  display: flex;
+  gap: 20px;
+  height: 50em;
+  width: 50em;
+  align-items: center;
+}
+picture{
+  display: flex;
+}
+
+
